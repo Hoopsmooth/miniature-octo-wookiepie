@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @todolist.title %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @todolist.body %>
+</p>
+
+<p>
+  <strong>Todolist:</strong>
+  <%= @todolist.TodoList %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @todolist.description %>
+</p>
+
+<p>
+  <strong>Body:</strong>
+  <%= @todolist.body %>
+</p>
+
+<p>
+  <strong>Keeps track of your todo items:</strong>
+  <%= @todolist.Keeps track of your Todo items %>
+</p>
+
+<%= link_to 'Edit', edit_todolist_path(@todolist) %> |
+<%= link_to 'Back', todolists_path %>

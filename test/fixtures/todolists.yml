@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: MyString
+  body: MyString
+  TodoList: MyString
+  description: MyString
+  body: MyText
+  Keeps track of your Todo items: MyString
+
+two:
+  title: MyString
+  body: MyString
+  TodoList: MyString
+  description: MyString
+  body: MyText
+  Keeps track of your Todo items: MyString
