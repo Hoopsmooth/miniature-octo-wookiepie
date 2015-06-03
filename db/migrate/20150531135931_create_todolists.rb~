@@ -6,7 +6,7 @@ class CreateTodolists < ActiveRecord::Migration
       t.string :TodoList
       t.string :description
       t.text :body
-      
+      t.string :Keeps track of your Todo items
 
       t.timestamps null: false
     end

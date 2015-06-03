@@ -22,6 +22,9 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
+# rspec-activemodel-mocks 1.0.1 added to fix stub_model fails
+gem 'rspec-activemodel-mocks', '~> 1.0.1'
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
@@ -41,11 +44,11 @@ group :development, :test do
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
-  # rspec-rails allows for testing as we would expect for a user to interact with the application 
-  gem 'rspec-rails', '~> 2.0'
+  # rspec-rails allows for testing as we would expect for a user to interact with the application
+  gem 'rspec-rails', '~> 3.0'
 end
 
 
 group :test  do
-  gem 'capybara', '~> 2.1.0'
+  gem 'capybara', '~> 2.2.0'
 end
